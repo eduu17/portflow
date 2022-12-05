@@ -13,8 +13,8 @@
 
 <body>
   <header id="topo">
-    <section class="menu-mobile">
-      <div class="hamburguer">
+    <section class="menu">
+      <div class="menu-mobile">
         <div class="bar"></div>
         <div class="bar"></div>
         <div class="bar"></div>
@@ -22,14 +22,25 @@
       <picture class="logo">
         <img width="181" height="49" src="./img/Portflow.svg" alt="Portflow">
       </picture>
-    </section>
-    <section class="banner" aria-labelledby="tituloprincipal">
-      <h1 id="tituloprincipal">Imagine, Discuta, Desenhe.</h1>
-      <h2>Fale Conosco</h3>
+      <nav class="menu-desktop">
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="./">Blog</a></li>
+          <li><a href="./">Valor</a></li>
+          <li><a href="./">Portfólio</a></li>
+          <li><a href="./">Contato</a></li>
+        </ul>
+      </nav>
     </section>
   </header>
 
   <main>
+    <section class="banner" aria-labelledby="tituloprincipal">
+      <div class="content container">
+        <h1 id="tituloprincipal">Imagine, Discuta, Desenhe.</h1>
+        <h2>Fale Conosco</h3>
+      </div>
+    </section>
     <section class="gallery-mobile">
       <picture><img width="398" height="398" src="./img/bg5.avif" alt="Mesa de som"></picture>
       <picture><img width="398" height="398" src="./img/bg12.avif" alt="Fotos"></picture>
@@ -45,7 +56,7 @@
       <picture><img width="398" height="398" src="./img/bg10.avif" alt="Oribbble"></picture>
     </section>
 
-    <section class=" gallery-desktop">
+    <section class=" gallery-desktop container">
       <img width="398" height="398" src="./img/bg1.avif" alt="Erva mate gaúcho">
       <img width="398" height="398" src="./img/bg2.avif" alt="Mini pão de queijo">
       <img width="398" height="398" src="./img/bg3.avif" alt="Muance">
