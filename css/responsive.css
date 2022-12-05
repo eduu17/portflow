@@ -8,11 +8,19 @@
     display: none;
   }
   .menu {
-    height: 50px;
-    position: fixed;
-    background-color: #fff;
-    justify-content: center;
+    height: 122px;
     align-items: center;
+    justify-content: center;
+    background-color: #fff;
+  }
+  .fixed {
+    width: 100%;
+    max-width: 1920px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
   }
   .logo {
     width: 50%;
@@ -26,19 +34,20 @@
     height: initial;
   }
   .menu-desktop {
-    display: flex;
     width: 50%;
     max-width: calc(1920px / 2);
+    display: flex;
     padding: 0 20px;
     justify-content: center;
     align-items: center;
   }
   .menu-desktop ul {
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+    gap: 25px;
   }
   .menu-desktop ul li a {
     font-size: 1rem;

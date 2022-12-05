@@ -14,7 +14,10 @@ html {
   width: 100%;
   height: 30px;
   display: flex;
-  justify-content: space-between;
+}
+.fixed {
+  display: flex;
+  width: calc(100% - 111px);
 }
 .menu-desktop {
   display: none;
@@ -36,7 +39,6 @@ html {
 }
 .logo {
   display: flex;
-  width: calc(100% - 111px);
   justify-content: start;
   align-items: center;
   padding-left: 10px;
