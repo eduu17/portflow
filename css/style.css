@@ -21,6 +21,7 @@
   align-items: center;
   gap: 5px;
   width: 111px;
+  height: 30px;
   background-color: #000;
 }
 .bar {
@@ -29,8 +30,10 @@
   background-color: #fff;
 }
 .logo {
-  height: 27px;
   display: flex;
+  width: calc(100% - 111px);
+  height: 27px;
+  justify-content: start;
   align-items: center;
 }
 .logo img {
